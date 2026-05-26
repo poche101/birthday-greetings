@@ -360,7 +360,7 @@
         .form-grid .full { grid-column: 1 / -1; }
         .field { display:flex; flex-direction:column; gap:0.5rem; }
         .field label { font-size: 0.65rem; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: var(--purple-light); }
-        .field input, .field select, .field textarea {
+        .field input, .field textarea {
             font-family: 'Jost', sans-serif; font-size: 1rem;
             background: rgba(255,255,255,0.04);
             border: 1px solid rgba(192,132,252,0.22);
@@ -368,13 +368,12 @@
             color: var(--cream); outline: none;
             transition: border-color 0.25s, box-shadow 0.25s, background 0.25s; width: 100%;
         }
-        .field select option { background: #100025; color: var(--cream); }
         .field input::placeholder, .field textarea::placeholder { color: rgba(167,139,202,0.5); }
-        .field input:focus, .field select:focus, .field textarea:focus {
+        .field input:focus, .field textarea:focus {
             border-color: var(--gold); background: rgba(251,191,36,0.05);
             box-shadow: 0 0 0 3px rgba(251,191,36,0.12);
         }
-        .field input.is-invalid, .field select.is-invalid, .field textarea.is-invalid {
+        .field input.is-invalid, .field textarea.is-invalid {
             border-color: #e87c7c; box-shadow: 0 0 0 3px rgba(232,124,124,0.12);
         }
         .field textarea { resize: vertical; min-height: 140px; line-height: 1.7; }
@@ -650,14 +649,10 @@
 
                 <div class="field full">
                     <label for="relationship">Your Relationship to Pastor Funke <span style="color:#e87c7c">*</span></label>
-                    <select id="relationship" name="relationship" class="{{ $errors->has('relationship') ? 'is-invalid' : '' }}">
-                        <option value="" disabled {{ old('relationship') ? '' : 'selected' }}>— Please select —</option>
-                        <option value="family" {{ old('relationship') === 'family' ? 'selected' : '' }}>Family Member</option>
-                        <option value="friend" {{ old('relationship') === 'friend' ? 'selected' : '' }}>Friend</option>
-                        <option value="colleague" {{ old('relationship') === 'colleague' ? 'selected' : '' }}>Colleague</option>
-                        <option value="church_member" {{ old('relationship') === 'church_member' ? 'selected' : '' }}>Church Member</option>
-                        <option value="well_wisher" {{ old('relationship') === 'well_wisher' ? 'selected' : '' }}>Well-Wisher</option>
-                    </select>
+                    <input type="text" id="relationship" name="relationship"
+                           value="{{ old('relationship') }}" placeholder="e.g. Friend, Church Member, Family…"
+                           maxlength="100"
+                           class="{{ $errors->has('relationship') ? 'is-invalid' : '' }}" />
                     @error('relationship') <span class="field-error">{{ $message }}</span> @enderror
                 </div>
 
