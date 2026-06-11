@@ -473,7 +473,7 @@
 
 {{-- HERO --}}
 <section class="hero">
-    <img src="{{ asset('images/pfo.jpg') }}" alt="Pastor Funke Oke" class="hero-bg-image" id="hero-img-1" loading="eager" decoding="async" onerror="this.style.display='none'" />
+    <img src="{{ asset('images/pfo.jpeg') }}" alt="Pastor Funke Oke" class="hero-bg-image" id="hero-img-1" loading="eager" decoding="async" onerror="this.style.display='none'" />
     <img src="" alt="Memory shared by a loved one" class="hero-bg-image-2" id="hero-img-2" style="display:none;" />
 
     @if(isset($mediaItems) && $mediaItems->where('mime_type', 'LIKE', 'image%')->count() > 0)
