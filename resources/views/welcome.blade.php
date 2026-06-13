@@ -493,9 +493,9 @@
         <div class="ornament-line"></div>
     </div>
 
-     <br/>
-      <br/>
-    <p class="hero-eyebrow">✦ A Golden Jubilee Celebration ✦</p>
+     <br>
+      <br>
+    <p class="hero-eyebrow"> A Golden Jubilee Celebration ✦</p>
 
     <h1 class="hero-fifty">50</h1>
     <h2 class="hero-name">Pastor Funke Oke</h2>
@@ -511,12 +511,6 @@
         <em style="color:rgba(251,191,36,0.8)">"The path of the righteous is like the morning sun."</em>
     </p>
 
-    <div style="margin-top:2rem;">
-        <span class="hero-date-badge">
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-            26 May, 2026
-        </span>
-    </div>
 
     <div style="margin-top:3rem;">
         <a href="#wishes" class="hero-scroll-cta">
