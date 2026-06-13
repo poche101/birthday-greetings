@@ -485,15 +485,17 @@
 
     <div class="hero-overlay" aria-hidden="true"></div>
     <div class="hero-glow" aria-hidden="true"></div>
-      <br/>
-      <br/>
-    <p class="hero-eyebrow">✦ A Golden Jubilee Celebration ✦</p>
+     
 
     <div class="ornament" style="animation:fadeInUp 1s ease 0.1s both;">
         <div class="ornament-line"></div>
         <div class="ornament-diamond"></div>
         <div class="ornament-line"></div>
     </div>
+
+     <br/>
+      <br/>
+    <p class="hero-eyebrow">✦ A Golden Jubilee Celebration ✦</p>
 
     <h1 class="hero-fifty">50</h1>
     <h2 class="hero-name">Pastor Funke Oke</h2>
