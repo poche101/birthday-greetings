@@ -485,7 +485,7 @@
 
     <div class="hero-overlay" aria-hidden="true"></div>
     <div class="hero-glow" aria-hidden="true"></div>
-     
+       <br>
 
     <div class="ornament" style="animation:fadeInUp 1s ease 0.1s both;">
         <div class="ornament-line"></div>
