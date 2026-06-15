@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="csrf-token" content="{{ csrf_token() }}" />
-    <title>Happy 50th Birthday — Pastor Funke Oke</title>
-    <meta name="description" content="Celebrating the golden jubilee of Pastor Funke Oke. Send wishes, share memories." />
+    <title>Happy Birthday — Pastor Funke Oke</title>
+    <meta name="description" content="Celebrating Pastor Funke Oke. Send wishes, share memories." />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script:wght@700&family=Jost:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&family=Yeseva+One&display=swap" rel="stylesheet" />
@@ -154,16 +154,6 @@
             letter-spacing: 0.45em; text-transform: uppercase;
             color: var(--pink); animation: fadeInDown 1s ease both;
             text-shadow: 0 0 20px rgba(244,114,182,0.7);
-        }
-        .hero-fifty {
-            font-family: 'Abril Fatface', serif;
-            font-size: clamp(7rem, 22vw, 16rem);
-            line-height: 0.85;
-            background: linear-gradient(135deg, #fde68a 0%, #fbbf24 30%, #f472b6 65%, #c084fc 100%);
-            -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
-            animation: fadeInUp 1s ease 0.2s both;
-            filter: drop-shadow(0 0 40px rgba(251,191,36,0.35));
-            letter-spacing: -0.02em;
         }
         .hero-name {
             font-family: 'Dancing Script', cursive;
@@ -488,10 +478,9 @@
        
      <br>
       <br>
-    <p class="hero-eyebrow"> A Golden Jubilee Celebration ✦</p>
+    <p class="hero-eyebrow"> A Birthday Celebration ✦</p>
 
-    <h1 class="hero-fifty">50</h1>
-    <h2 class="hero-name">Pastor Funke Oke</h2>
+    <h2 class="hero-name" style="animation:fadeInUp 1s ease 0.2s both;">Pastor Funke Oke</h2>
 
     <div class="ornament" style="animation:fadeInUp 1s ease 0.5s both;">
         <div class="ornament-line"></div>
@@ -500,7 +489,7 @@
     </div>
 
     <p class="hero-subtitle" style="animation:fadeInUp 1s ease 0.6s both;">
-        Celebrating five glorious decades of grace, faith, and love.<br>
+        Celebrating a life of grace, faith, and love.<br>
         <em style="color:rgba(251,191,36,0.8)">"The path of the righteous is like the morning sun."</em>
     </p>
 
@@ -670,7 +659,7 @@
         <div class="ornament-diamond"></div>
         <div class="ornament-line"></div>
     </div>
-    <p>With love &amp; gratitude &nbsp;·&nbsp; 26 May 2026 &nbsp;·&nbsp; A Celebration of Fifty Years</p>
+    <p>With love &amp; gratitude &nbsp;·&nbsp; 26 May 2026 &nbsp;·&nbsp; A Celebration of Life</p>
     <p style="margin-top:0.5rem;font-size:0.8rem;opacity:0.45;">"For I know the plans I have for you" — Jeremiah 29:11</p>
 </footer>
 
